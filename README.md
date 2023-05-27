@@ -3,7 +3,7 @@
 of 3 - 21 colors relevant to an input color. The bot is fully written in PHP using the DiscordPHP library.
 
 ## Invite the bot
-The Palettey Bot is hosted 24/7 by the author, and is available for anyone to use freely. You can invite the bot to your server(s) using this link.
+The Palettey Bot is hosted 24/7 by the author, and is available for anyone to use freely. You can invite the bot to your server(s) using [this link](https://discord.com/oauth2/authorize?client_id=1111650904563798017&permissions=0&scope=bot%20applications.commands).
 
 ## Accepted color formats
 Each commands takes a required argument of the color the palette should be generated around. Accepted formats are:
