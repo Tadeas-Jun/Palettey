@@ -14,7 +14,7 @@ Each commands takes a required argument of the color the palette should be gener
 More color formats can be added per suggestions.
 
 ## Palette-generating algorithms
-The bot currently uses two algorithms to generate the color palettes, both available as separate commands.
+The bot currently uses three algorithms to generate the color palettes, all available as separate commands.
 
 The Darken-Ligten algorithm places the input color in the middle of the palette and generates darker / lighter colors around it by subtracting / adding a constant value to each of the RGB values.
 The first example palette was generated using this algorithm and the input color `#2d2c2c`.
@@ -22,6 +22,15 @@ The first example palette was generated using this algorithm and the input color
 The Contrasting Color algorithm fills up most of its palette using the Darken-Lighten algorithm, but the last two colors of the palette are dedicated to a contrasting color and its darker version.
 The contrasting color is found by finding the opposite side of the color wheel - i.e. calculating the `255 - x` value for each of the RGB values.
 The second and third example palettes were generated using this algorithm and the input colors `#ff652f` and `#516868`.
+
+The Pride Flag algorithm generates colors based on a given pride flag. The algorithm first calculates the relationship (on the RGB scale) each individual color of a flag has to its center color, and then applies that relationship in reverse to the input color to receive each color of the palette.
+The fourth and fitfh example color palettes were generated using this algorithm and the input colors `#adb0ff` for the lesbian pride flag and `#ffebd6` for the bisexual pride flag.
+The flags currently available to be used using this algorithm by specifying the option in the command are:
+ - `bisexual_flag`
+ - `transgender_flag`
+ - `pansexual_flag`
+ - `lesbian_flag`
+ - `mlm_flag`
 
 ## Contact
 If you have any questions about Palettey, if you need an PHP / Discord developer, or if you just want to chat for a while, please feel free to reach out to Tadeas using his email contact@tadeasjun.com, or on Discord - **Tadeas Salvatore Jun#9537**.
