@@ -33,4 +33,4 @@ The flags currently available to be used using this algorithm by specifying the 
  - `mlm_flag`
 
 ## Contact
-If you have any questions about Palettey, if you need an PHP / Discord developer, or if you just want to chat for a while, please feel free to reach out to Tadeas using his email contact@tadeasjun.com, or on Discord - **Tadeas Salvatore Jun#9537**.
+If you have any questions about Palettey, if you need an PHP / Discord developer, or if you just want to chat for a while, please feel free to reach out to Tadeas using his email contact@tadeasjun.com, or on Discord - **@tadeasjun**.
